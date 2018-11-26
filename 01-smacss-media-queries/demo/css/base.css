@@ -1,0 +1,18 @@
+body {
+    color: blue;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    border: 0.1px solid black;
+    width: 100%;
+}
+
+aside {
+    border: 0.1px solid black;
+}
+
+section {
+    border: 0.1px solid black;
+}
