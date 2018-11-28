@@ -32,8 +32,12 @@ $.getJSON(apiURL)
       let newDog = new Dog(dog.name, dog.image_url, dog.hobbies)
       newDog.displayDog()
       allDogs.push(newDog)
-      $selector.append(`<option>${newDog.title}</option>`)
+      $selector.append(`<option value=${newDog.title}>${newDog.title}</option>`)
     })
+    console.log($(`option[value='Odie']`))
+    if($(`option[value='dog']`[0])) {
+      console.log('nope')
+    }
   })
 
 
