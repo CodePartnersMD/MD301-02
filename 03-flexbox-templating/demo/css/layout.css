@@ -1,0 +1,14 @@
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-around;
+  align-items: flex-end;
+}
+/* div {
+  
+} */
