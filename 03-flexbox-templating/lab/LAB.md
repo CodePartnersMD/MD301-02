@@ -1,4 +1,12 @@
-# Lab 03: Flexbox and templating
+#TL;DR;
+- Work on the same repository as lab 2
+- Check out a new branch
+- Use Flexbox for styling images
+- Implement Pagination(see Feature #1 below)
+- implement sorting method(see feature #3 below)
+
+
+# Lab 03: Flexbox 
 
 ## Configuration
 
@@ -81,22 +89,7 @@ Then the other set of images should be dynamically displayed
 - Add navigation for the user to switch between two pages. Each page should render a unique set of images from one of the two provided JSON files.
 - Reset the filters, then repopulate them using only keywords from the images currently being displayed.
 
-### Feature 2: Templating
 
-#### Why are we implementing this feature?
-
-- As a user, I want all of the images to be displayed in a consistent manner, so that it is easy to scan the collection of images.
-
-#### What are we going to implement?
-
-Given that a user opens the application in the browser  
-When the images are displayed on the screen  
-Then each image should be rendered according to a template   
-
-#### How are we implementing it?
-
-- Create the appropriate Handlebars template in your HTML with the same `<h2>, <img>, and <p>` elements as the jQuery template from the prior lab.
-- Refactor the method that renders your images to use Handlebars instead of making a copy with jQuery.
 
 ### Feature 3: Styling with Flexbox
 
@@ -168,11 +161,19 @@ Then only the images matching the current set of characters should be displayed 
 - Create an input element to allow users to search for an image. It is up to you and your partner to decide if the user should be able to search by title, keyword, or both.
 - Write a regular expression pattern to create a fuzzy search so that the results are narrowed down and displayed every time the user enters or removes a character from the input.
 
-## Submission Instructions
+### Stretch Goal: Templating
 
-- Complete your Feature Tasks for the day
-- Create a Pull Request (PR) back to the `master` branch of your repository
-- On Canvas, submit a link to your PR and a link to your deployed application on GitHub pages. Add a comment in your Canvas assignment which includes the following:
-  - A question within the context of today's lab assignment
-  - An observation about the lab assignment, or related 'Ah-hah!' moment
-  - How long you spent working on this assignment
+#### Why are we implementing this feature?
+
+- As a user, I want all of the images to be displayed in a consistent manner, so that it is easy to scan the collection of images.
+
+#### What are we going to implement?
+
+Given that a user opens the application in the browser  
+When the images are displayed on the screen  
+Then each image should be rendered according to a template   
+
+#### How are we implementing it?
+
+- Create the appropriate Handlebars template in your HTML with the same `<h2>, <img>, and <p>` elements as the jQuery template from the prior lab.
+- Refactor the method that renders your images to use Handlebars instead of making a copy with jQuery.
