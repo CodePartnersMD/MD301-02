@@ -1,3 +1,8 @@
+#TL;DR;
+- This is a personal project that will be for your professional development
+- make it look great and ensure your own person information is updated for the portfolio
+- I will not be strictly grading this but employers WILL be looking for this, so do good work!
+
 # Lab 4: Personal Portfolio
 
 ## Resources
