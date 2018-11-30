@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "v10.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdiehlio/portfolio-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdiehlio/portfolio-example/issues"
+  },
+  "homepage": "https://github.com/zdiehlio/portfolio-example#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
