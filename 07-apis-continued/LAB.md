@@ -1,5 +1,9 @@
 # Lab 07: APIs (continued)
 
+#TL;DR;
+- Work on the same repo as yesterday
+- Create a route and route handler for the Yelp API and Movie API
+
 ## Resources
 
 [Yelp API Docs](https://www.yelp.com/developers/documentation/v3/business_search)
