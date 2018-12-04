@@ -49,10 +49,7 @@ Actual time needed to complete: _____
 
 Add this information to your README.
 
-### Repository set-up
 
-- One person from your group should create a new repository on GitHub called `lab-07-back-end`. Add your partner(s) as collaborator(s). Clone your repository.
-- Select one person's lab 6 code to use for today's lab. The person whose code is selected should copy their lab 6 solution into the lab 7 repository. From the command line, use the `cp` command to copy the `server.js` file and your `README.md` file. Initialize your project with Node and install the necessary packages; confirm in your `package.json` file. Add, commit, and push to your master branch.
 
 ### Code Review
 
@@ -204,11 +201,4 @@ _Your `README.md` must include:_
 -->
 ```
 
-## Submission Instructions
 
-- Complete your Feature Tasks for the day
-- Create a Pull Request (PR) back to the `master` branch of your repository
-- On Canvas, submit a link to your PR and a link to your deployed application on Heroku. Add a comment in your Canvas assignment which includes the following:
-  - A question within the context of today's lab assignment
-  - An observation about the lab assignment, or related 'Ah-hah!' moment
-  - How long you spent working on this assignment
