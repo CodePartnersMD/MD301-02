@@ -68,16 +68,15 @@ Then the location information will not be displayed
 #### How are we implementing it?
 
 Database set-up:
-- Install and require the NPM PostgreSQL package `pg` in your server.js file.
-- Add your connection string to your `.env` file as your `DATABASE_URL`.
-  - Windows and Linux users: You should have retained the user/password from the pre-work for this course. Your OS may require that your connection string is composed of additional information including user and password. For example: `postgres://USER:PASSWORD@HOST:PORT/DBNAME`;
-  - Mac users: `postgres://localhost:5432/DBNAME`;
-- Pass the appropriate argument when instantiating a new Client.
+- setup account at https://www.mlab.com
+- create a new sandbox database
+- setup a user for your database with username and password
+- include link to your database in server.js and separate your username and password into your .env file
 
-Table creation:
-- Create a file called `schema.sql` which contains correct SQL queries to drop all of your tables and create them, if they do not already exist. All tables should be created in the same database.
-- Execute this file from the command line with the following syntax: `psql -d <database-name> -f <filename>`.
-  - For example, `psql -d city_explorer -f schema.sql`
+Schema Creation:
+- follow the steps to connecting to your database using mongoose at https://mongoosejs.com/docs/index.html
+- create a schema and model for you API data
+- write logic that will first check if the location exists in your DB using the findOne method, then if it does not exist, make a new call and save it to your DB
 
 Server logic:
 - Create a function to check the database for the location information.
