@@ -65,6 +65,7 @@ function locationController(req, res) {
     } else {
       superagent.get(url)
         .then(result => {
+          console.log(result)
           const newLocation = new Location({
             address: req.query.address,
             lat: result.body.results[0].geometry.location.lat,
