@@ -26,7 +26,5 @@ Look through [these sample problems.](DEMO.md){:target="_blank"}
 
 When you have completed the entire set of code challenges and all tests pass, create a pull request from your current branch to the master branch. Don't merge it yet. 
 
-Submit a link to your pull request. 
 
-After your assignment has been graded, go ahead and merge your pull request, and delete your branch. 
 

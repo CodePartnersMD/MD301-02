@@ -130,7 +130,7 @@ Then the index should load without a flash of unstyled content (FOUC)
 
 #### What are we going to implement?
 
-Given that the user enters a seach query  
+Given that the user enters a search query  
 When the user submits the search form  
 Then the search query should be included in a request to the Google Books API  
 
