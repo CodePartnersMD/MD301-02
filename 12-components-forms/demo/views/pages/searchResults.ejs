@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include ../templates/head %>
+<body>
+  <div>The developer is <%= developer %></div>
+  <ul>
+    <% bookList.map(book => { %>
+      <li><%= book.title%> - <%= book.author %></li>
+    <% }) %> 
+  </ul>
+<% include ../templates/footer %>
+</body>
+</html>

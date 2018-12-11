@@ -22,6 +22,16 @@ app.get('/location', (req, res) => {
     .catch(err => res.send('Got an error'))
 })
 
+app.get('/yelp', (req, res) => {
+  const url= `https://api.yelp.com/v3/businesses/search?latitude=${req.query.lat}&longitude=${req.query.lng}`
+
+  superagent.get(url).set('Authorization', `Bearer ${process.env.YELP_API_KEY}`)
+    .then(result => {
+      res.send(result.body)
+    })
+    .catch(err => res.send(err))
+})
+
 app.get('/', (req, res) => {
   res.send('<div>This is the Home Route</div>')
 })

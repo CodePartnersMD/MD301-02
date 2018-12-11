@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include ../templates/head %>
+<body>
+  <h1>Book App</h1>
+  <form id='search-form' action='/search' method='GET'>
+    <fieldset>
+      <label for='bookSearch'>Search Books</label>
+      <input name='bookSearch'/>
+    </fieldset>
+    <fieldset>
+      <label for='title'>Title</label>
+      <input type='radio' name='param' value='title'/>
+    </fieldset>
+    <fieldset>
+      <label for='author'>Author</label>
+      <input type='radio' name='param' value='author'/>
+    </fieldset>
+    <button type='submit'>Submit</button>
+  </form>
+</body>
+<% include ../templates/footer %>
+</html>
